@@ -1,0 +1,140 @@
+.laeeb-body {
+  position: absolute;
+  background-color: #fff;
+  content: "";
+  height: 600px;
+  width: 1000px;
+  border-radius: 92% 8% 100% 0% / 100% 95% 5% 0%;
+  margin: 40px;
+}
+
+.laeeb-head {
+  position: absolute;
+  background-color: #fff;
+  content: "";
+  height: 250px;
+  width: 250px;
+  border: 1px solid #000;
+  border-radius: 55% 45% 95% 5% / 58% 17% 83% 42%;
+  transform: rotate(10deg);
+  left: 185px;
+  top: 18px;
+}
+
+.laeeb-eye {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-color: #000;
+  border: 6px solid rgb(85, 39, 12);
+  border-radius: 50%;
+
+  left: 230px;
+  top: 120px;
+}
+
+.eye-right {
+  left: 320px;
+  top: 70px;
+}
+
+.laeeb-eyebrows {
+  border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
+  width: 70px;
+  height: 20px;
+  background-color: #000;
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  transform: rotate(-24deg);
+}
+
+.laeeb-strip {
+  border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
+  width: 250px;
+  height: 20px;
+  background-color: #000;
+  position: absolute;
+  left: 170px;
+  top: 30px;
+  transform: rotate(-28deg);
+}
+
+.eyebrows-right {
+  left: 290px;
+  top: 50px;
+  transform: rotate(-10deg);
+}
+
+.laeeb-decoration {
+  clip-path: polygon(
+    evenodd,
+    25% 25%,
+    50% 25%,
+    75% 50%,
+    50% 75%,
+    25% 50%,
+    37.5% 37.5%,
+    37.5% 62.5%,
+    62.5% 62.5%,
+    62.5% 37.5%,
+    50% 37.5%,
+    62.5% 50%,
+    50% 62.5%,
+    37.5% 50%,
+    43.75% 43.75%,
+    50% 43.75%,
+    56.25% 50%,
+    50% 56.25%,
+    43.75% 50%,
+    46.88% 46.88%,
+    53.13% 46.88%,
+    53.13% 53.13%,
+    46.88% 53.13%,
+    46.88% 46.88%,
+    50% 43.75%,
+    56.25% 43.75%,
+    56.25% 56.25%,
+    43.75% 56.25%,
+    43.75% 43.75%,
+    50% 37.5%,
+    37.5% 37.5%,
+    50% 25%,
+    75% 25%,
+    75% 75%,
+    25% 75%,
+    0% 50%,
+    50% 0%,
+    100% 50%,
+    50% 100%,
+    25% 75%
+  );
+  background-color: #ca0101;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 780px;
+  top: 40px;
+  transform: rotate(-28deg);
+}
+
+.decoration-left{
+    width: 120px;
+    height: 120px;
+    left: 20px;
+    top: 460px;
+}
+
+.laeeb-mouth {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-color: #000;
+  border-radius: 50%;
+
+  left: 320px;
+  top: 170px;
+}
+body {
+  background-color: #000;
+}
